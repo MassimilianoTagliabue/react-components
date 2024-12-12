@@ -3,7 +3,7 @@ import style from "./AppMain.module.css"
 function AppMain() {
 
     return (
-        <main >
+        <main className={style.container}>
             <div className={style.card}>
                 <div className={style.square}></div>
                 <section className="pad">
